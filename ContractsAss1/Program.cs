@@ -5,7 +5,8 @@
         public static void Main(string[] args)
         {
             var acc = new Account();
-            acc.Withdraw(-100);
+            acc.Deposit(400); // OK
+            acc.Withdraw(-100); // Triggers Exception
         }
     }
 }
